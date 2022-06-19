@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+// eslint-disable-next-line no-unused-vars
+import UseEffectClass from './components/UseEffectClass';
+// eslint-disable-next-line no-unused-vars
+import UseEffectFunction from './Components/UseEffectFunction.jsx';
+// eslint-disable-next-line no-unused-vars
+import FetchAPIData from './components/api/FetchAPIData';
+// eslint-disable-next-line no-unused-vars
+import TodoList from './components/itemsList/TodoList'
+// eslint-disable-next-line no-unused-vars
+import TodoListCallback from './components/itemsList/TodoListCallback'
+import CallbackMemo from './components/CallbackMemo';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( <
+        div className = "App" > {
+            /* <UseEffectClass />
+                  <UseEffectFunction />
+                  <FetchAPIData /> */
+        } { /* <TodoList /> */ } { /* <TodoListCallback /> */ } <
+        CallbackMemo / >
+
+
+        <
+        /div>
+    );
 }
 
 export default App;
